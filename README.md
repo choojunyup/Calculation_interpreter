@@ -1,7 +1,7 @@
 # Calculation_interpreter
 Calculation_interpreter
 
-1. Backus-Naur Form
+1.Backus-Naur Form
 
 <expr> ::= <term> (("+" | "-") <term>)*
 <term> ::= <factor> ("*" <factor>)*
@@ -13,6 +13,7 @@ Calculation_interpreter
 - cmd open
 - typing " interperter (1+2)*-2+1 "
 - result
+"
 token parser ok
 
 ****token****
@@ -47,3 +48,4 @@ ast
 ********result*******
 (1+2)*-2+1 = -5.000000
 ********result*******
+"
